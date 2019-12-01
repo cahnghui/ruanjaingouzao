@@ -86,7 +86,7 @@ public class Exercise {
 		List<Equation2> list = new ArrayList<Equation2>(equationList);
 		for (int i = 0; i < equationList.size(); i++) {
 			System.out.print(list.get(i)+"\t");
-			if((i+1)%columnCount==0)
+			if((i+1) % columnCount==0)
 			{
 				System.out.println();
 			}
