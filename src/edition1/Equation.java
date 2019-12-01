@@ -25,7 +25,7 @@ public class Equation {
 		return operator;
 	}
 
-	private void construct(int left, int right, char op) {
+	public void construct(int left, int right, char op) {
 		this.leftNumber = left;
 		this.rightNumber = right;
 		this.operator = op;
@@ -77,7 +77,7 @@ public class Equation {
 		left = random.nextInt(101);
 
 		do {
-			right = random.nextInt();
+			right = random.nextInt(101);
 			operatorNumber = random.nextInt(2);
 			if (operatorNumber == 0) {
 				operator = '-';

@@ -95,7 +95,7 @@ public class Exercise {
 		
 		for (int i = 0; i < equationList.size(); i++) {
 			System.out.print(list.get(i).getValue()+"\t");
-			if((i+1)%5==0)
+			if((i+1)%columnCount==0)
 			{
 				System.out.println();
 			}
