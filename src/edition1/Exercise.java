@@ -18,6 +18,7 @@ public class Exercise {
 			}
 			equation[i] = equation2;
 		}
+		System.out.println("生成50道加法算式：");
 		formatDisplay();
 	}
 	
@@ -33,6 +34,7 @@ public class Exercise {
 			}
 			equation[i] = equation2;
 		}
+		System.out.println("生成50道减法算式：");
 		formatDisplay();
 	}
 	
@@ -48,6 +50,7 @@ public class Exercise {
 			}
 			equation[i] = equation2;
 		}
+		System.out.println("生成50道混合算式：");
 		formatDisplay();
 	}
 	
@@ -64,7 +67,6 @@ public class Exercise {
 	
 	private static void formatDisplay()
 	{
-		System.out.println("生成50道算式：");
 		for (int i = 0; i < equation.length; i++) {
 			System.out.print(equation[i]+"\t");
 			if((i+1)%5==0)

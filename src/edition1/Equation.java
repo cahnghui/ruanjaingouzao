@@ -77,7 +77,7 @@ public class Equation {
 		left = random.nextInt(101);
 
 		do {
-			right = random.nextInt();
+			right = random.nextInt(101);
 			operatorNumber = random.nextInt(2);
 			if (operatorNumber == 0) {
 				operator = '-';
