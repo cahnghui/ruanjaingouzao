@@ -19,6 +19,7 @@ public class Exercise {
 			equation[i] = equation2;
 		}
 		System.out.println("生成50道加法算式：");
+		
 		formatDisplay();
 	}
 	
